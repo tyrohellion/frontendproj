@@ -109,7 +109,10 @@ body {
 }
 
 .sections-wrapper {
-    padding: 0 3rem 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 0 15rem 5rem 15rem;
 }
 
 .largest-text {
@@ -117,7 +120,53 @@ body {
     font-weight: 600;
 }
 
-@media all and (min-width: 480px) and (max-width: 768px) {}
+h2 {
+    font-size: clamp(0.7rem, 2vw, 1rem);
+    font-weight: 400;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1.5rem;
+}
+
+.pill-button-cta {
+    background-color: var(--accent-primary);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 2rem;
+    width: min-content;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.pill-button {
+    background-color: var(--bg-secondary);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 2rem;
+    width: min-content;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.tierlist-graphic {
+    max-width: 304px;
+    max-height: auto;
+}
+
+@media all and (min-width: 768px) and (max-width: 1000px) {
+    .sections-wrapper {
+        padding: 0 6rem 0 6rem;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .sections-wrapper {
+        flex-direction: column;
+        padding: 0 3rem 0 3rem;
+    }
+}
 
 @media all and (max-width: 480px) {
     .navbar-wrapper {
@@ -133,6 +182,7 @@ body {
     }
 
     .sections-wrapper {
-        padding: 0 1.5rem 0 1.5rem;
+        flex-direction: column;
+        padding: 0 2rem 0 2rem;
     }
 }
