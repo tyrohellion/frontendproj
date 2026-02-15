@@ -112,7 +112,15 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 4rem;
-    padding: 0 15rem 5rem 15rem;
+    padding: 8rem 15rem 8rem 15rem;
+}
+
+.sections-wrapper-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 8rem 15rem 8rem 15rem;
+    background-color: var(--bg-secondary);
 }
 
 .largest-text {
@@ -150,21 +158,25 @@ h2 {
     cursor: pointer;
 }
 
-.tierlist-graphic {
-    max-width: 304px;
-    max-height: auto;
+.pill-button-inverted {
+    background-color: var(--bg-primary);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 2rem;
+    width: min-content;
+    white-space: nowrap;
+    cursor: pointer;
 }
 
 @media all and (min-width: 768px) and (max-width: 1000px) {
     .sections-wrapper {
-        padding: 0 6rem 0 6rem;
+        padding: 0 6rem 9rem 6rem;
     }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
     .sections-wrapper {
         flex-direction: column;
-        padding: 0 3rem 0 3rem;
+        padding: 0 3rem 9rem 3rem;
     }
 }
 
@@ -183,6 +195,6 @@ h2 {
 
     .sections-wrapper {
         flex-direction: column;
-        padding: 0 2rem 0 2rem;
+        padding: 0 2rem 9rem 2rem;
     }
 }
