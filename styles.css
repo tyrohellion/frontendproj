@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --bg-primary: #0f1115;
+    --bg-secondary: #151922;
+    --bg-tertiary: #1c2230;
+    --bg-hover: #22293a;
+
+    --border-subtle: #232a3a;
+    --border-default: #2c3447;
+    --border-strong: #3a435c;
+
+    --text-primary: #e6eaf2;
+    --text-secondary: #a9b1c6;
+    --text-muted: #6b738a;
+    --text-inverted: #0f1115;
+
+    --accent-primary: #7c5cff;
+    --accent-primary-hover: #6a4df0;
+    --accent-secondary: #22d3ee;
+    --accent-glow: rgba(124, 92, 255, 0.35);
+
+    --tier-s: #ff4d6d;
+    --tier-a: #ff9f1c;
+    --tier-b: #ffd60a;
+    --tier-c: #2ec4b6;
+    --tier-d: #577590;
+
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --error: #ef4444;
+    --info: #38bdf8;
+
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.4);
+    --shadow-strong: 0 8px 40px rgba(0, 0, 0, 0.6);
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: var(--text-primary);
+}
+
+.bigboy {
+    font-size: clamp(3rem, 4vw, 4.5rem);
+    color: var(--accent-primary);
+    line-height: 6.5rem;
+}
+
+.smolboy {
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    color: var(--tier-b);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+    margin: 0;
+    position: relative;
+    padding: 9rem 0 12rem 0;
+}
+
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-secondary);
+    position: fixed;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    top: 0;
+    width: 100vw;
+}
+
+.nav-logo {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1.5rem;
+}
+
+.nav-item {
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.nav-profile {
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.nav-item:hover,
+.nav-profile:hover {
+    color: var(--accent-primary-hover);
+}
+
+.sections-wrapper {
+    padding: 0 3rem 0 3rem;
+}
+
+.largest-text {
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    font-weight: 600;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {}
+
+@media all and (max-width: 480px) {
+    .navbar-wrapper {
+        bottom: 0;
+        justify-content: center;
+        width: 100vw;
+        gap: 2rem;
+        height: min-content;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .sections-wrapper {
+        padding: 0 1.5rem 0 1.5rem;
+    }
+}

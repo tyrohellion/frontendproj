@@ -1,0 +1,27 @@
+<svg width="212" height="212" viewBox="0 0 212 212" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_2)">
+<path d="M106 0C164.542 0 212 47.4578 212 106C212 164.542 164.542 212 106 212C47.4578 212 0 164.542 0 106C0 47.4578 47.4578 0 106 0ZM106 41C70.1015 41 41 70.1015 41 106C41 141.899 70.1015 171 106 171C141.899 171 171 141.899 171 106C171 70.1015 141.899 41 106 41Z" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(52 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(80 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(108 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(136 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(52 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(52 96)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(24 96)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(24 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(80 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(80 96)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(108 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(136 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(164 124)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(52 152)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(80 152)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(108 152)" fill="#7C5CFF"/>
+<rect width="24" height="24" transform="translate(136 152)" fill="#7C5CFF"/>
+</g>
+<defs>
+<clipPath id="clip0_1_2">
+<rect width="212" height="212" fill="white"/>
+</clipPath>
+</defs>
+</svg>
