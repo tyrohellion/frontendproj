@@ -89,6 +89,10 @@ body {
     border-radius: 1.5rem;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .nav-item {
     color: var(--text-secondary);
     font-weight: 500;
@@ -137,7 +141,7 @@ h2 {
     display: flex;
     align-items: center;
     margin-top: 3rem;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .pill-button-cta {
@@ -181,12 +185,35 @@ h2 {
 }
 
 @media all and (max-width: 480px) {
+
+    .body {
+        padding: 3rem 0 6rem 0;
+    }
+
     .navbar-wrapper {
-        bottom: 0;
+        top: 1rem;
+        left: 1rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
         justify-content: center;
         width: 100vw;
         gap: 2rem;
         height: min-content;
+        width: min-content;
+        background-color: var(--border-strong);
+    }
+
+    .hamburger-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        border-radius: 1rem;
+    }
+
+    .nav-item, .nav-logo, .nav-profile {
+        display: none;
     }
 
     .nav-logo {
