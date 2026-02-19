@@ -197,6 +197,16 @@ h2 {
   .sections-wrapper-2 {
     padding: 8rem 6rem 8rem 6rem;
   }
+
+  .tierlist-graphic {
+    width: 60%;
+    height: auto;
+  }
+
+  .database-graphic {
+    width: 40%;
+    height: auto;
+  }
 }
 
 @media all and (min-width: 580px) and (max-width: 768px) {
@@ -204,6 +214,16 @@ h2 {
   .sections-wrapper-2 {
     flex-direction: column;
     padding: 8rem 3rem 8rem 3rem;
+  }
+
+  .tierlist-graphic {
+    width: 40%;
+    height: auto;
+  }
+
+  .database-graphic {
+    width: 20%;
+    height: auto;
   }
 }
 
